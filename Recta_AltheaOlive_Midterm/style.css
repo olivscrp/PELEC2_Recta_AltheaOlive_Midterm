@@ -1,0 +1,146 @@
+nav {
+    background-color: #DB3B65; 
+    padding: 15px;
+    text-align: center;
+    position: fixed; 
+    top: 0;         
+    width: 100%;    
+    z-index: 1000;  
+}
+
+body {
+    padding-top: 70px; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header, section {
+    padding: 50px 20px;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 0.8); 
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 auto; 
+    max-width: 800px; 
+}
+
+h1 {
+    color: #6A0D45; 
+}
+
+h1 span {
+    color: #A0174F; 
+}
+
+h2 {
+    color: #C82655; 
+}
+
+nav {
+    background-color: #DB3B65; 
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #E76A7D; 
+}
+
+button {
+    background-color: #6A0D45; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A0174F; 
+}
+
+.social-icons {
+    margin: 20px 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.social-icon {
+    margin-bottom: 20px; 
+}
+
+.social-icon.github {
+    margin-top: 20px; 
+}
+
+.social-icon {
+    margin: 20px 0; 
+    display: flex; 
+    align-items: center; 
+}
+
+
+#skills {
+    text-align: center; 
+}
+
+.skills-list {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.skills-list li {
+    display: flex; 
+    align-items: center; 
+    margin: 10px; 
+    font-size: 18px; 
+}
+
+.skill-icon {
+    width: 50px; 
+    margin-right: 10px; 
+}
+
+
+#soft-skills {
+    text-align: center; 
+}
+
+.soft-skills-list {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.soft-skills-list li {
+    display: flex; 
+    align-items: center; 
+    margin: 10px; 
+    font-size: 18px;
+}
+
+.skill-icon {
+    width: 50px; 
+    margin-right: 10px; 
+}
